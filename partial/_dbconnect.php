@@ -1,0 +1,10 @@
+<?php
+$username='root';
+$password='';
+$servername='localhost';
+$database='idiscuss';
+$conn=mysqli_connect($servername,$username,$password,$database);
+if(!$conn){
+    die("failed");
+}
+?>
